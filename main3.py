@@ -1,10 +1,7 @@
-def greet(name):
-    return f"Hello {name}!"
+age = 21
+identity_card = True
 
-
-if __name__ == "__main__":
-    print(greet("Annie"))
-
-# This is a comment
-# Another comment
-# One more comment
+if age >= 21 and identity_card:
+    print("You can drink alcohol.")
+else:
+    print("You cannot drink alcohol.")
