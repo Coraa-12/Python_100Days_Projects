@@ -8,7 +8,7 @@ class TestPizzaOrder(unittest.TestCase):
 
     def setUp(self):
         self.maxDiff = None
-        
+
     def test_calculate_total_small_pizza_no_toppings(self):
         total = calculate_total("S", "N", "N")
         self.assertEqual(total, 15)

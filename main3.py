@@ -1,7 +1,13 @@
-age = 21
-identity_card = True
+import matplotlib.pyplot as plt
+import numpy as np
 
-if age >= 21 and identity_card:
-    print("You can drink alcohol.")
-else:
-    print("You cannot drink alcohol.")
+x = np.linspace(0, 2 * np.pi, 100)
+y = np.sin(x)
+
+plt.plot(x, y)
+
+plt.title('Sine Wave')
+plt.xlabel('x')
+plt.ylabel('sin(x)')
+
+plt.show()
