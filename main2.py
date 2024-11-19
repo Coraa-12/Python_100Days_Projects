@@ -1,7 +1,5 @@
-from flask import Flask
+age = 18
+has_licensed = True
 
-app = Flask(__name__)
-
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+if age >= 18 and has_licensed:
+    print("You are allowed to drive")
