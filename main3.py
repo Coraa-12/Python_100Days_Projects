@@ -1,9 +1,5 @@
-a = 5
-b = 7
+import random
+import main4
 
-if a >= b and a != b:
-    print("A")
-elif not a >= b and a != b:
-    print("B")
-else:
-    print("C")
+print(random.randint(1, 10))
+print(main4.my_favorite_number)
